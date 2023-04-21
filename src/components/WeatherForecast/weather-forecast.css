@@ -1,0 +1,38 @@
+.weather-daily {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 70%;
+}
+
+.weather-city {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.weather-city h1 {
+  margin: 0;
+}
+
+
+.weather-day {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-details {
+  align-items: center;
+  color: #333;
+  font-size: 20px ;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.weather-details-item {
+    margin-bottom: 15px;
+}
+

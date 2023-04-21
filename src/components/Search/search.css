@@ -1,0 +1,11 @@
+input {
+    --placeholder-color: #ccc;
+  }
+  
+  input::placeholder {
+    color: var(--placeholder-color);
+  }
+  
+  input:placeholder-shown::placeholder {
+    color: var(--placeholder-color);
+  }
